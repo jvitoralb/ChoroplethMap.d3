@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 189, 189);
+}
+
+#title {
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+#description {
+    padding-bottom: 16px;
+}
+
+.credit {
+    font-size: 12px;
+}
+
+#tooltip {
+    position: absolute;
+    color: white;
+    line-height: 22px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.8);
+}
+
